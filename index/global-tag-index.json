@@ -1,0 +1,681 @@
+{
+  "generated": "2026-03-09T19:19:12.580614Z",
+  "total_tags": 40,
+  "total_tagged_nodes": 61,
+  "tags": {
+    "ai-optimization": {
+      "tag": "ai-optimization",
+      "count": 1,
+      "branches": [
+        "system-documentation"
+      ],
+      "nodes": [
+        {
+          "branch": "system-documentation",
+          "node_id": 6,
+          "message": "Token Efficiency - Why this matters"
+        }
+      ]
+    },
+    "ai-optimized": {
+      "tag": "ai-optimized",
+      "count": 1,
+      "branches": [
+        "system-documentation"
+      ],
+      "nodes": [
+        {
+          "branch": "system-documentation",
+          "node_id": 0,
+          "message": "Fractal Documentation System - AI-optimized hierarchical documentation"
+        }
+      ]
+    },
+    "architecture": {
+      "tag": "architecture",
+      "count": 5,
+      "branches": [
+        "example-todo-app",
+        "iss-workflow-example",
+        "my-auth-service",
+        "system-documentation"
+      ],
+      "nodes": [
+        {
+          "branch": "example-todo-app",
+          "node_id": 1,
+          "message": "Use localStorage for data persistence"
+        },
+        {
+          "branch": "iss-workflow-example",
+          "node_id": 4,
+          "message": "Use ISS for progressive context loading"
+        },
+        {
+          "branch": "my-auth-service",
+          "node_id": 1,
+          "message": "Use JWT for authentication"
+        },
+        {
+          "branch": "system-documentation",
+          "node_id": 1,
+          "message": "Use fractal 3-layer structure for all documentation"
+        },
+        {
+          "branch": "system-documentation",
+          "node_id": 2,
+          "message": "Strategic Layer - High-level architecture and decisions"
+        }
+      ]
+    },
+    "auth": {
+      "tag": "auth",
+      "count": 1,
+      "branches": [
+        "my-auth-service"
+      ],
+      "nodes": [
+        {
+          "branch": "my-auth-service",
+          "node_id": 1,
+          "message": "Use JWT for authentication"
+        }
+      ]
+    },
+    "automation": {
+      "tag": "automation",
+      "count": 1,
+      "branches": [
+        "system-documentation"
+      ],
+      "nodes": [
+        {
+          "branch": "system-documentation",
+          "node_id": 5,
+          "message": "ISS Integration - Automatic summary generation"
+        }
+      ]
+    },
+    "branches": {
+      "tag": "branches",
+      "count": 1,
+      "branches": [
+        "iss-workflow-example"
+      ],
+      "nodes": [
+        {
+          "branch": "iss-workflow-example",
+          "node_id": 2,
+          "message": "Branch System: Each project is a branch containing nodes (decisions, commits, docs) in knowledge/tree.jsonl format"
+        }
+      ]
+    },
+    "core": {
+      "tag": "core",
+      "count": 1,
+      "branches": [
+        "iss-workflow-example"
+      ],
+      "nodes": [
+        {
+          "branch": "iss-workflow-example",
+          "node_id": 2,
+          "message": "Branch System: Each project is a branch containing nodes (decisions, commits, docs) in knowledge/tree.jsonl format"
+        }
+      ]
+    },
+    "crud": {
+      "tag": "crud",
+      "count": 1,
+      "branches": [
+        "example-todo-app"
+      ],
+      "nodes": [
+        {
+          "branch": "example-todo-app",
+          "node_id": 2,
+          "message": "Add task creation functionality"
+        }
+      ]
+    },
+    "details": {
+      "tag": "details",
+      "count": 1,
+      "branches": [
+        "system-documentation"
+      ],
+      "nodes": [
+        {
+          "branch": "system-documentation",
+          "node_id": 4,
+          "message": "Implementation Layer - Specific code and details"
+        }
+      ]
+    },
+    "discovery": {
+      "tag": "discovery",
+      "count": 1,
+      "branches": [
+        "system-documentation"
+      ],
+      "nodes": [
+        {
+          "branch": "system-documentation",
+          "node_id": 5,
+          "message": "ISS Integration - Automatic summary generation"
+        }
+      ]
+    },
+    "documentation": {
+      "tag": "documentation",
+      "count": 4,
+      "branches": [
+        "iss-workflow-example",
+        "system-documentation"
+      ],
+      "nodes": [
+        {
+          "branch": "iss-workflow-example",
+          "node_id": 1,
+          "message": "ISS Overview: Index Scrolling System provides fast navigation through summarized branches using 3 layers (Strategic/Tactical/Implementation)"
+        },
+        {
+          "branch": "iss-workflow-example",
+          "node_id": 2,
+          "message": "Branch System: Each project is a branch containing nodes (decisions, commits, docs) in knowledge/tree.jsonl format"
+        },
+        {
+          "branch": "iss-workflow-example",
+          "node_id": 3,
+          "message": "Node Types: init, decision, commit, documentation, summary, blocker - Each captures different aspects of project knowledge"
+        },
+        {
+          "branch": "system-documentation",
+          "node_id": 0,
+          "message": "Fractal Documentation System - AI-optimized hierarchical documentation"
+        }
+      ]
+    },
+    "efficiency": {
+      "tag": "efficiency",
+      "count": 1,
+      "branches": [
+        "system-documentation"
+      ],
+      "nodes": [
+        {
+          "branch": "system-documentation",
+          "node_id": 6,
+          "message": "Token Efficiency - Why this matters"
+        }
+      ]
+    },
+    "example": {
+      "tag": "example",
+      "count": 1,
+      "branches": [
+        "example-todo-app"
+      ],
+      "nodes": [
+        {
+          "branch": "example-todo-app",
+          "node_id": 0,
+          "message": "Example Todo App - Example Project"
+        }
+      ]
+    },
+    "examples": {
+      "tag": "examples",
+      "count": 1,
+      "branches": [
+        "system-documentation"
+      ],
+      "nodes": [
+        {
+          "branch": "system-documentation",
+          "node_id": 7,
+          "message": "Usage Examples - Real-world applications"
+        }
+      ]
+    },
+    "feature": {
+      "tag": "feature",
+      "count": 2,
+      "branches": [
+        "example-todo-app"
+      ],
+      "nodes": [
+        {
+          "branch": "example-todo-app",
+          "node_id": 2,
+          "message": "Add task creation functionality"
+        },
+        {
+          "branch": "example-todo-app",
+          "node_id": 3,
+          "message": "Add task completion toggle"
+        }
+      ]
+    },
+    "fractal": {
+      "tag": "fractal",
+      "count": 2,
+      "branches": [
+        "system-documentation"
+      ],
+      "nodes": [
+        {
+          "branch": "system-documentation",
+          "node_id": 0,
+          "message": "Fractal Documentation System - AI-optimized hierarchical documentation"
+        },
+        {
+          "branch": "system-documentation",
+          "node_id": 1,
+          "message": "Use fractal 3-layer structure for all documentation"
+        }
+      ]
+    },
+    "implementation": {
+      "tag": "implementation",
+      "count": 3,
+      "branches": [
+        "my-auth-service",
+        "system-documentation"
+      ],
+      "nodes": [
+        {
+          "branch": "my-auth-service",
+          "node_id": 2,
+          "message": "Implement JWT token generation"
+        },
+        {
+          "branch": "system-documentation",
+          "node_id": 3,
+          "message": "Tactical Layer - Implementation approaches and modules"
+        },
+        {
+          "branch": "system-documentation",
+          "node_id": 4,
+          "message": "Implementation Layer - Specific code and details"
+        }
+      ]
+    },
+    "indexing": {
+      "tag": "indexing",
+      "count": 1,
+      "branches": [
+        "iss-workflow-example"
+      ],
+      "nodes": [
+        {
+          "branch": "iss-workflow-example",
+          "node_id": 6,
+          "message": "Update ISS indexes using iss-hierarchical-indexer.py"
+        }
+      ]
+    },
+    "init": {
+      "tag": "init",
+      "count": 3,
+      "branches": [
+        "iss-workflow-example",
+        "test-api",
+        "my-auth-service"
+      ],
+      "nodes": [
+        {
+          "branch": "iss-workflow-example",
+          "node_id": 0,
+          "message": "Complete workflow: Branch \u2192 Nodes \u2192 ISS \u2192 Queries"
+        },
+        {
+          "branch": "my-auth-service",
+          "node_id": 0,
+          "message": "Authentication microservice"
+        },
+        {
+          "branch": "test-api",
+          "node_id": 0,
+          "message": "REST API for todo app"
+        }
+      ]
+    },
+    "iss": {
+      "tag": "iss",
+      "count": 4,
+      "branches": [
+        "iss-workflow-example",
+        "system-documentation"
+      ],
+      "nodes": [
+        {
+          "branch": "iss-workflow-example",
+          "node_id": 1,
+          "message": "ISS Overview: Index Scrolling System provides fast navigation through summarized branches using 3 layers (Strategic/Tactical/Implementation)"
+        },
+        {
+          "branch": "iss-workflow-example",
+          "node_id": 4,
+          "message": "Use ISS for progressive context loading"
+        },
+        {
+          "branch": "system-documentation",
+          "node_id": 0,
+          "message": "Fractal Documentation System - AI-optimized hierarchical documentation"
+        },
+        {
+          "branch": "system-documentation",
+          "node_id": 5,
+          "message": "ISS Integration - Automatic summary generation"
+        }
+      ]
+    },
+    "layer-system": {
+      "tag": "layer-system",
+      "count": 3,
+      "branches": [
+        "system-documentation"
+      ],
+      "nodes": [
+        {
+          "branch": "system-documentation",
+          "node_id": 2,
+          "message": "Strategic Layer - High-level architecture and decisions"
+        },
+        {
+          "branch": "system-documentation",
+          "node_id": 3,
+          "message": "Tactical Layer - Implementation approaches and modules"
+        },
+        {
+          "branch": "system-documentation",
+          "node_id": 4,
+          "message": "Implementation Layer - Specific code and details"
+        }
+      ]
+    },
+    "milestone": {
+      "tag": "milestone",
+      "count": 1,
+      "branches": [
+        "example-todo-app"
+      ],
+      "nodes": [
+        {
+          "branch": "example-todo-app",
+          "node_id": 4,
+          "message": "Basic CRUD operations complete"
+        }
+      ]
+    },
+    "missing-features": {
+      "tag": "missing-features",
+      "count": 1,
+      "branches": [
+        "iss-workflow-example"
+      ],
+      "nodes": [
+        {
+          "branch": "iss-workflow-example",
+          "node_id": 7,
+          "message": "Missing Systems: Lenses (domain views), Tag Trees (hierarchical tags), Core Engine (tree_engine.py), Query Engine (advanced searches)"
+        }
+      ]
+    },
+    "nodes": {
+      "tag": "nodes",
+      "count": 1,
+      "branches": [
+        "iss-workflow-example"
+      ],
+      "nodes": [
+        {
+          "branch": "iss-workflow-example",
+          "node_id": 3,
+          "message": "Node Types: init, decision, commit, documentation, summary, blocker - Each captures different aspects of project knowledge"
+        }
+      ]
+    },
+    "operational": {
+      "tag": "operational",
+      "count": 1,
+      "branches": [
+        "system-documentation"
+      ],
+      "nodes": [
+        {
+          "branch": "system-documentation",
+          "node_id": 0,
+          "message": "Fractal Documentation System - AI-optimized hierarchical documentation"
+        }
+      ]
+    },
+    "overview": {
+      "tag": "overview",
+      "count": 1,
+      "branches": [
+        "iss-workflow-example"
+      ],
+      "nodes": [
+        {
+          "branch": "iss-workflow-example",
+          "node_id": 1,
+          "message": "ISS Overview: Index Scrolling System provides fast navigation through summarized branches using 3 layers (Strategic/Tactical/Implementation)"
+        }
+      ]
+    },
+    "roadmap": {
+      "tag": "roadmap",
+      "count": 1,
+      "branches": [
+        "iss-workflow-example"
+      ],
+      "nodes": [
+        {
+          "branch": "iss-workflow-example",
+          "node_id": 7,
+          "message": "Missing Systems: Lenses (domain views), Tag Trees (hierarchical tags), Core Engine (tree_engine.py), Query Engine (advanced searches)"
+        }
+      ]
+    },
+    "security": {
+      "tag": "security",
+      "count": 2,
+      "branches": [
+        "my-auth-service"
+      ],
+      "nodes": [
+        {
+          "branch": "my-auth-service",
+          "node_id": 1,
+          "message": "Use JWT for authentication"
+        },
+        {
+          "branch": "my-auth-service",
+          "node_id": 2,
+          "message": "Implement JWT token generation"
+        }
+      ]
+    },
+    "simple": {
+      "tag": "simple",
+      "count": 1,
+      "branches": [
+        "example-todo-app"
+      ],
+      "nodes": [
+        {
+          "branch": "example-todo-app",
+          "node_id": 0,
+          "message": "Example Todo App - Example Project"
+        }
+      ]
+    },
+    "storage": {
+      "tag": "storage",
+      "count": 1,
+      "branches": [
+        "example-todo-app"
+      ],
+      "nodes": [
+        {
+          "branch": "example-todo-app",
+          "node_id": 1,
+          "message": "Use localStorage for data persistence"
+        }
+      ]
+    },
+    "strategic": {
+      "tag": "strategic",
+      "count": 1,
+      "branches": [
+        "system-documentation"
+      ],
+      "nodes": [
+        {
+          "branch": "system-documentation",
+          "node_id": 2,
+          "message": "Strategic Layer - High-level architecture and decisions"
+        }
+      ]
+    },
+    "summarization": {
+      "tag": "summarization",
+      "count": 1,
+      "branches": [
+        "iss-workflow-example"
+      ],
+      "nodes": [
+        {
+          "branch": "iss-workflow-example",
+          "node_id": 5,
+          "message": "Generate summaries using kt-hierarchical-summarizer.py"
+        }
+      ]
+    },
+    "tactical": {
+      "tag": "tactical",
+      "count": 1,
+      "branches": [
+        "system-documentation"
+      ],
+      "nodes": [
+        {
+          "branch": "system-documentation",
+          "node_id": 3,
+          "message": "Tactical Layer - Implementation approaches and modules"
+        }
+      ]
+    },
+    "token-efficiency": {
+      "tag": "token-efficiency",
+      "count": 2,
+      "branches": [
+        "iss-workflow-example",
+        "system-documentation"
+      ],
+      "nodes": [
+        {
+          "branch": "iss-workflow-example",
+          "node_id": 4,
+          "message": "Use ISS for progressive context loading"
+        },
+        {
+          "branch": "system-documentation",
+          "node_id": 1,
+          "message": "Use fractal 3-layer structure for all documentation"
+        }
+      ]
+    },
+    "tokens": {
+      "tag": "tokens",
+      "count": 1,
+      "branches": [
+        "system-documentation"
+      ],
+      "nodes": [
+        {
+          "branch": "system-documentation",
+          "node_id": 6,
+          "message": "Token Efficiency - Why this matters"
+        }
+      ]
+    },
+    "types": {
+      "tag": "types",
+      "count": 1,
+      "branches": [
+        "iss-workflow-example"
+      ],
+      "nodes": [
+        {
+          "branch": "iss-workflow-example",
+          "node_id": 3,
+          "message": "Node Types: init, decision, commit, documentation, summary, blocker - Each captures different aspects of project knowledge"
+        }
+      ]
+    },
+    "ui": {
+      "tag": "ui",
+      "count": 1,
+      "branches": [
+        "example-todo-app"
+      ],
+      "nodes": [
+        {
+          "branch": "example-todo-app",
+          "node_id": 3,
+          "message": "Add task completion toggle"
+        }
+      ]
+    },
+    "use-cases": {
+      "tag": "use-cases",
+      "count": 1,
+      "branches": [
+        "system-documentation"
+      ],
+      "nodes": [
+        {
+          "branch": "system-documentation",
+          "node_id": 7,
+          "message": "Usage Examples - Real-world applications"
+        }
+      ]
+    },
+    "workflow": {
+      "tag": "workflow",
+      "count": 2,
+      "branches": [
+        "iss-workflow-example"
+      ],
+      "nodes": [
+        {
+          "branch": "iss-workflow-example",
+          "node_id": 5,
+          "message": "Generate summaries using kt-hierarchical-summarizer.py"
+        },
+        {
+          "branch": "iss-workflow-example",
+          "node_id": 6,
+          "message": "Update ISS indexes using iss-hierarchical-indexer.py"
+        }
+      ]
+    },
+    "workflows": {
+      "tag": "workflows",
+      "count": 1,
+      "branches": [
+        "system-documentation"
+      ],
+      "nodes": [
+        {
+          "branch": "system-documentation",
+          "node_id": 7,
+          "message": "Usage Examples - Real-world applications"
+        }
+      ]
+    }
+  }
+}

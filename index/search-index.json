@@ -1,0 +1,317 @@
+{
+  "generated": "2026-03-09T19:19:12.586623Z",
+  "total_entries": 25,
+  "entries": [
+    {
+      "branch": "example-todo-app",
+      "node_id": 0,
+      "type": "init",
+      "message": "Example Todo App - Example Project",
+      "tags": [
+        "example",
+        "simple"
+      ],
+      "timestamp": "2026-03-09T18:36:20.143976Z",
+      "searchable_text": "example todo app - example project   example simple"
+    },
+    {
+      "branch": "example-todo-app",
+      "node_id": 1,
+      "type": "decision",
+      "message": "Use localStorage for data persistence",
+      "tags": [
+        "architecture",
+        "storage"
+      ],
+      "timestamp": "2026-03-09T18:36:20.143976Z",
+      "searchable_text": "use localstorage for data persistence simple, no backend needed, good for learning  architecture storage"
+    },
+    {
+      "branch": "example-todo-app",
+      "node_id": 2,
+      "type": "commit",
+      "message": "Add task creation functionality",
+      "tags": [
+        "feature",
+        "crud"
+      ],
+      "timestamp": "2026-03-09T18:36:20.143976Z",
+      "searchable_text": "add task creation functionality  users can add new tasks with title and description feature crud"
+    },
+    {
+      "branch": "example-todo-app",
+      "node_id": 3,
+      "type": "commit",
+      "message": "Add task completion toggle",
+      "tags": [
+        "feature",
+        "ui"
+      ],
+      "timestamp": "2026-03-09T18:36:20.143976Z",
+      "searchable_text": "add task completion toggle  click checkbox to mark tasks complete/incomplete feature ui"
+    },
+    {
+      "branch": "example-todo-app",
+      "node_id": 4,
+      "type": "summary",
+      "message": "Basic CRUD operations complete",
+      "tags": [
+        "milestone"
+      ],
+      "timestamp": "2026-03-09T18:36:20.143976Z",
+      "searchable_text": "basic crud operations complete  todo app has create, read, update (toggle), and persist to localstorage. ready for basic use. milestone"
+    },
+    {
+      "branch": "iss-workflow-example",
+      "node_id": 0,
+      "type": "init",
+      "message": "Complete workflow: Branch \u2192 Nodes \u2192 ISS \u2192 Queries",
+      "tags": [
+        "init"
+      ],
+      "timestamp": "2026-03-09T19:09:29.730879Z",
+      "searchable_text": "complete workflow: branch \u2192 nodes \u2192 iss \u2192 queries   init"
+    },
+    {
+      "branch": "iss-workflow-example",
+      "node_id": 1,
+      "type": "documentation",
+      "message": "ISS Overview: Index Scrolling System provides fast navigation through summarized branches using 3 layers (Strategic/Tactical/Implementation)",
+      "tags": [
+        "iss",
+        "documentation",
+        "overview"
+      ],
+      "timestamp": "2026-03-09T19:09:34.857298Z",
+      "searchable_text": "iss overview: index scrolling system provides fast navigation through summarized branches using 3 layers (strategic/tactical/implementation)   iss documentation overview"
+    },
+    {
+      "branch": "iss-workflow-example",
+      "node_id": 2,
+      "type": "documentation",
+      "message": "Branch System: Each project is a branch containing nodes (decisions, commits, docs) in knowledge/tree.jsonl format",
+      "tags": [
+        "branches",
+        "documentation",
+        "core"
+      ],
+      "timestamp": "2026-03-09T19:09:39.324449Z",
+      "searchable_text": "branch system: each project is a branch containing nodes (decisions, commits, docs) in knowledge/tree.jsonl format   branches documentation core"
+    },
+    {
+      "branch": "iss-workflow-example",
+      "node_id": 3,
+      "type": "documentation",
+      "message": "Node Types: init, decision, commit, documentation, summary, blocker - Each captures different aspects of project knowledge",
+      "tags": [
+        "nodes",
+        "documentation",
+        "types"
+      ],
+      "timestamp": "2026-03-09T19:09:44.100104Z",
+      "searchable_text": "node types: init, decision, commit, documentation, summary, blocker - each captures different aspects of project knowledge   nodes documentation types"
+    },
+    {
+      "branch": "iss-workflow-example",
+      "node_id": 4,
+      "type": "decision",
+      "message": "Use ISS for progressive context loading",
+      "tags": [
+        "iss",
+        "architecture",
+        "token-efficiency"
+      ],
+      "timestamp": "2026-03-09T19:09:49.139702Z",
+      "searchable_text": "use iss for progressive context loading loading strategic layer first (800 tokens) allows scanning 30+ projects vs loading 1 full project (25k tokens)  iss architecture token-efficiency"
+    },
+    {
+      "branch": "iss-workflow-example",
+      "node_id": 5,
+      "type": "commit",
+      "message": "Generate summaries using kt-hierarchical-summarizer.py",
+      "tags": [
+        "workflow",
+        "summarization"
+      ],
+      "timestamp": "2026-03-09T19:09:53.200008Z",
+      "searchable_text": "generate summaries using kt-hierarchical-summarizer.py   workflow summarization"
+    },
+    {
+      "branch": "iss-workflow-example",
+      "node_id": 6,
+      "type": "commit",
+      "message": "Update ISS indexes using iss-hierarchical-indexer.py",
+      "tags": [
+        "workflow",
+        "indexing"
+      ],
+      "timestamp": "2026-03-09T19:09:57.475519Z",
+      "searchable_text": "update iss indexes using iss-hierarchical-indexer.py   workflow indexing"
+    },
+    {
+      "branch": "iss-workflow-example",
+      "node_id": 7,
+      "type": "documentation",
+      "message": "Missing Systems: Lenses (domain views), Tag Trees (hierarchical tags), Core Engine (tree_engine.py), Query Engine (advanced searches)",
+      "tags": [
+        "roadmap",
+        "missing-features"
+      ],
+      "timestamp": "2026-03-09T19:10:02.023412Z",
+      "searchable_text": "missing systems: lenses (domain views), tag trees (hierarchical tags), core engine (tree_engine.py), query engine (advanced searches)   roadmap missing-features"
+    },
+    {
+      "branch": "my-auth-service",
+      "node_id": 0,
+      "type": "init",
+      "message": "Authentication microservice",
+      "tags": [
+        "init"
+      ],
+      "timestamp": "2026-03-09T18:45:58.777640Z",
+      "searchable_text": "authentication microservice   init"
+    },
+    {
+      "branch": "my-auth-service",
+      "node_id": 1,
+      "type": "decision",
+      "message": "Use JWT for authentication",
+      "tags": [
+        "architecture",
+        "auth",
+        "security"
+      ],
+      "timestamp": "2026-03-09T18:46:04.724244Z",
+      "searchable_text": "use jwt for authentication stateless, scalable, industry standard  architecture auth security"
+    },
+    {
+      "branch": "my-auth-service",
+      "node_id": 2,
+      "type": "commit",
+      "message": "Implement JWT token generation",
+      "tags": [
+        "implementation",
+        "security"
+      ],
+      "timestamp": "2026-03-09T18:46:09.620443Z",
+      "searchable_text": "implement jwt token generation   implementation security"
+    },
+    {
+      "branch": "system-documentation",
+      "node_id": 0,
+      "type": "init",
+      "message": "Fractal Documentation System - AI-optimized hierarchical documentation",
+      "tags": [
+        "operational",
+        "documentation",
+        "fractal",
+        "iss",
+        "ai-optimized"
+      ],
+      "timestamp": "2026-03-09T19:03:00Z",
+      "searchable_text": "fractal documentation system - ai-optimized hierarchical documentation   operational documentation fractal iss ai-optimized"
+    },
+    {
+      "branch": "system-documentation",
+      "node_id": 1,
+      "type": "decision",
+      "message": "Use fractal 3-layer structure for all documentation",
+      "tags": [
+        "architecture",
+        "fractal",
+        "token-efficiency"
+      ],
+      "timestamp": "2026-03-09T19:03:00Z",
+      "searchable_text": "use fractal 3-layer structure for all documentation token efficiency: strategic (800 tokens) \u2192 tactical (3,200 tokens) \u2192 implementation (18,000 tokens). ai can progressively load only what's needed. 97% token savings vs loading full tree.  architecture fractal token-efficiency"
+    },
+    {
+      "branch": "system-documentation",
+      "node_id": 2,
+      "type": "documentation",
+      "message": "Strategic Layer - High-level architecture and decisions",
+      "tags": [
+        "strategic",
+        "layer-system",
+        "architecture"
+      ],
+      "timestamp": "2026-03-09T19:03:00Z",
+      "searchable_text": "strategic layer - high-level architecture and decisions  the strategic layer contains high-level information: branch purpose, major decisions, architectural choices, and macro-level patterns. typically 800-1,500 tokens. this is what ai reads first to understand if a tree is relevant. strategic layer-system architecture"
+    },
+    {
+      "branch": "system-documentation",
+      "node_id": 3,
+      "type": "documentation",
+      "message": "Tactical Layer - Implementation approaches and modules",
+      "tags": [
+        "tactical",
+        "layer-system",
+        "implementation"
+      ],
+      "timestamp": "2026-03-09T19:03:00Z",
+      "searchable_text": "tactical layer - implementation approaches and modules  the tactical layer contains mid-level details: implementation strategies, module organization, component patterns, and technical approaches. typically 2,000-5,000 tokens. ai loads this when strategic layer shows relevance. tactical layer-system implementation"
+    },
+    {
+      "branch": "system-documentation",
+      "node_id": 4,
+      "type": "documentation",
+      "message": "Implementation Layer - Specific code and details",
+      "tags": [
+        "implementation",
+        "layer-system",
+        "details"
+      ],
+      "timestamp": "2026-03-09T19:03:00Z",
+      "searchable_text": "implementation layer - specific code and details  the implementation layer contains fine-grained details: specific files, code snippets, utilities, edge cases, and micro-optimizations. typically 10,000-25,000 tokens. ai loads this only when coding or debugging specific features. implementation layer-system details"
+    },
+    {
+      "branch": "system-documentation",
+      "node_id": 5,
+      "type": "documentation",
+      "message": "ISS Integration - Automatic summary generation",
+      "tags": [
+        "iss",
+        "automation",
+        "discovery"
+      ],
+      "timestamp": "2026-03-09T19:03:00Z",
+      "searchable_text": "iss integration - automatic summary generation  iss (index scrolling system) integration enables automatic discovery. the hierarchical-summarizer generates 3-layer markdown summaries with yaml frontmatter. the indexer updates iss for fast lookups. the intelligent-loader auto-discovers relevant trees based on queries. iss automation discovery"
+    },
+    {
+      "branch": "system-documentation",
+      "node_id": 6,
+      "type": "documentation",
+      "message": "Token Efficiency - Why this matters",
+      "tags": [
+        "efficiency",
+        "tokens",
+        "ai-optimization"
+      ],
+      "timestamp": "2026-03-09T19:03:00Z",
+      "searchable_text": "token efficiency - why this matters  full tree loading: ~25,000 tokens. strategic only: ~800 tokens (97% savings). strategic + tactical: ~4,000 tokens (84% savings). this enables ai to scan 30+ trees in the same token budget as loading 1 full tree. critical for large codebases and multi-project contexts. efficiency tokens ai-optimization"
+    },
+    {
+      "branch": "system-documentation",
+      "node_id": 7,
+      "type": "documentation",
+      "message": "Usage Examples - Real-world applications",
+      "tags": [
+        "examples",
+        "use-cases",
+        "workflows"
+      ],
+      "timestamp": "2026-03-09T19:03:00Z",
+      "searchable_text": "usage examples - real-world applications  use cases: (1) planning new features - load strategic layers of related projects. (2) code review - load tactical + implementation of specific modules. (3) architecture decisions - compare strategic layers across multiple projects. (4) onboarding - progressive loading from macro to micro. (5) cross-project analysis - scan strategic layers of entire codebase. examples use-cases workflows"
+    },
+    {
+      "branch": "test-api",
+      "node_id": 0,
+      "type": "init",
+      "message": "REST API for todo app",
+      "tags": [
+        "init"
+      ],
+      "timestamp": "2026-03-09T18:45:36.585639Z",
+      "searchable_text": "rest api for todo app   init"
+    }
+  ]
+}

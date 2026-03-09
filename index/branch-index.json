@@ -1,0 +1,126 @@
+{
+  "generated": "2026-03-09T19:19:12.579117Z",
+  "total_branches": 5,
+  "total_nodes": 25,
+  "branches": {
+    "example-todo-app": {
+      "name": "example-todo-app",
+      "path": "C:\\dev\\KT-starter-kit\\branches\\example-todo-app",
+      "node_count": 5,
+      "description": "Example Todo App - Example Project",
+      "created": "2026-03-09T18:36:20.143976Z",
+      "tags": [
+        "simple",
+        "architecture",
+        "feature",
+        "storage",
+        "crud",
+        "ui",
+        "example",
+        "milestone"
+      ],
+      "node_types": [
+        "commit",
+        "init",
+        "decision",
+        "summary"
+      ]
+    },
+    "iss-workflow-example": {
+      "name": "iss-workflow-example",
+      "path": "C:\\dev\\KT-starter-kit\\branches\\iss-workflow-example",
+      "node_count": 8,
+      "description": "Complete workflow: Branch \u2192 Nodes \u2192 ISS \u2192 Queries",
+      "created": "2026-03-09T19:09:29.730879Z",
+      "tags": [
+        "overview",
+        "documentation",
+        "types",
+        "token-efficiency",
+        "workflow",
+        "iss",
+        "init",
+        "core",
+        "architecture",
+        "indexing",
+        "roadmap",
+        "nodes",
+        "missing-features",
+        "summarization",
+        "branches"
+      ],
+      "node_types": [
+        "commit",
+        "init",
+        "decision",
+        "documentation"
+      ]
+    },
+    "my-auth-service": {
+      "name": "my-auth-service",
+      "path": "C:\\dev\\KT-starter-kit\\branches\\my-auth-service",
+      "node_count": 3,
+      "description": "Authentication microservice",
+      "created": "2026-03-09T18:45:58.777640Z",
+      "tags": [
+        "security",
+        "implementation",
+        "architecture",
+        "init",
+        "auth"
+      ],
+      "node_types": [
+        "commit",
+        "init",
+        "decision"
+      ]
+    },
+    "system-documentation": {
+      "name": "system-documentation",
+      "path": "C:\\dev\\KT-starter-kit\\branches\\system-documentation",
+      "node_count": 8,
+      "description": "Fractal Documentation System - AI-optimized hierarchical documentation",
+      "created": "2026-03-09T19:03:00Z",
+      "tags": [
+        "implementation",
+        "fractal",
+        "iss",
+        "examples",
+        "workflows",
+        "efficiency",
+        "use-cases",
+        "ai-optimization",
+        "discovery",
+        "details",
+        "ai-optimized",
+        "automation",
+        "tactical",
+        "documentation",
+        "token-efficiency",
+        "tokens",
+        "architecture",
+        "operational",
+        "layer-system",
+        "strategic"
+      ],
+      "node_types": [
+        "init",
+        "decision",
+        "documentation"
+      ]
+    },
+    "test-api": {
+      "name": "test-api",
+      "path": "C:\\dev\\KT-starter-kit\\branches\\test-api",
+      "node_count": 1,
+      "description": "REST API for todo app",
+      "created": "2026-03-09T18:45:36.585639Z",
+      "tags": [
+        "init"
+      ],
+      "node_types": [
+        "init"
+      ]
+    }
+  }
+}
