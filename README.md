@@ -85,6 +85,17 @@ python tools/kt-integration/tools/iss-query.py layer my-first-project strategic
 
 ---
 
+## 📚 Documentation
+
+| Doc | Purpose | Time |
+|-----|---------|------|
+| **[QUICK-REFERENCE.md](QUICK-REFERENCE.md)** | At-a-glance overview + command cheat sheet | 5 min |
+| **[QUICKSTART.md](QUICKSTART.md)** | Detailed getting started guide | 15 min |
+| **[ARCHITECTURE.md](ARCHITECTURE.md)** | Complete system architecture | 30 min |
+| **[BUILD-PLAN.md](BUILD-PLAN.md)** | Development roadmap | 10 min |
+
+---
+
 ## 📚 What's Included
 
 ### 🎯 The Fractal Documentation System
