@@ -249,7 +249,25 @@ You have 50 projects and need to find all authentication-related code.
 
 ## What We DON'T Have (Yet)
 
-### Lens System ❌
+### Lens System ✅ **NOW AVAILABLE!**
+**What it is:**
+Domain-specific views of the tree (security, API, architecture, debugging, testing, etc.)
+
+**What we have:**
+- 9 built-in lenses in `lenses/builtin/`
+- Lens definitions (JSON format)
+- Custom lens directory (`lenses/custom/`)
+- Complete LENSES-GUIDE.md
+
+**What we don't have yet:**
+- Lens CLI for automatic application
+- Lens analyzer for generating views
+
+**See:** LENSES-GUIDE.md for full documentation
+
+---
+
+### Tag Trees ❌
 **What it is:**
 Domain-specific views of the tree (security, API, architecture, debugging, testing, etc.)
 
