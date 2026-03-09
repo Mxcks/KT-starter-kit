@@ -293,11 +293,21 @@ python tools/kt-integration/tools/kt-config.py manual
 
 ## 🤝 Contributing
 
-Contributions welcome! Areas of interest:
-- Additional operational branches (templates, patterns)
-- Language-specific analyzers (Python, TypeScript, etc.)
-- Custom layer definitions
-- Integration with other AI tools
+**We welcome contributions!**
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for:
+- Ways to contribute (code, docs, examples, bugs)
+- Development workflow
+- Code style guidelines
+- 60+ contribution ideas
+- Extension points
+
+**Quick ideas:**
+- Add more examples to QUICKSTART.md
+- Create reusable templates
+- Build integrations (VS Code, Obsidian)
+- Improve error messages
+- Add new CLI commands
 
 ---
 
