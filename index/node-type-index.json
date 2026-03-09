@@ -1,7 +1,7 @@
 {
-  "generated": "2026-03-09T19:19:12.584622Z",
+  "generated": "2026-03-09T19:33:43.898902Z",
   "total_types": 5,
-  "total_nodes": 25,
+  "total_nodes": 43,
   "types": {
     "commit": {
       "type": "commit",
@@ -73,10 +73,12 @@
     },
     "documentation": {
       "type": "documentation",
-      "count": 10,
+      "count": 26,
       "branches": [
+        "system-patterns",
         "iss-workflow-example",
-        "system-documentation"
+        "system-documentation",
+        "system-templates"
       ],
       "nodes": [
         {
@@ -128,17 +130,99 @@
           "branch": "system-documentation",
           "node_id": 7,
           "message": "Usage Examples - Real-world applications"
+        },
+        {
+          "branch": "system-patterns",
+          "node_id": "1",
+          "message": "Repository Pattern"
+        },
+        {
+          "branch": "system-patterns",
+          "node_id": "2",
+          "message": "Circuit Breaker Pattern"
+        },
+        {
+          "branch": "system-patterns",
+          "node_id": "3",
+          "message": "Event Sourcing Pattern"
+        },
+        {
+          "branch": "system-patterns",
+          "node_id": "4",
+          "message": "CQRS Pattern"
+        },
+        {
+          "branch": "system-patterns",
+          "node_id": "5",
+          "message": "Saga Pattern"
+        },
+        {
+          "branch": "system-patterns",
+          "node_id": "6",
+          "message": "Strangler Fig Pattern"
+        },
+        {
+          "branch": "system-patterns",
+          "node_id": "7",
+          "message": "Backend for Frontend (BFF) Pattern"
+        },
+        {
+          "branch": "system-patterns",
+          "node_id": "8",
+          "message": "Bulkhead Pattern"
+        },
+        {
+          "branch": "system-patterns",
+          "node_id": "9",
+          "message": "Sidecar Pattern"
+        },
+        {
+          "branch": "system-patterns",
+          "node_id": "10",
+          "message": "Cache-Aside Pattern"
+        },
+        {
+          "branch": "system-templates",
+          "node_id": "1",
+          "message": "Web API Template"
+        },
+        {
+          "branch": "system-templates",
+          "node_id": "2",
+          "message": "Microservice Template"
+        },
+        {
+          "branch": "system-templates",
+          "node_id": "3",
+          "message": "Frontend SPA Template"
+        },
+        {
+          "branch": "system-templates",
+          "node_id": "4",
+          "message": "Data Pipeline Template"
+        },
+        {
+          "branch": "system-templates",
+          "node_id": "5",
+          "message": "CLI Tool Template"
+        },
+        {
+          "branch": "system-templates",
+          "node_id": "6",
+          "message": "Library/Package Template"
         }
       ]
     },
     "init": {
       "type": "init",
-      "count": 5,
+      "count": 7,
       "branches": [
+        "system-templates",
         "iss-workflow-example",
-        "test-api",
-        "example-todo-app",
         "my-auth-service",
+        "example-todo-app",
+        "system-patterns",
+        "test-api",
         "system-documentation"
       ],
       "nodes": [
@@ -161,6 +245,16 @@
           "branch": "system-documentation",
           "node_id": 0,
           "message": "Fractal Documentation System - AI-optimized hierarchical documentation"
+        },
+        {
+          "branch": "system-patterns",
+          "node_id": "0",
+          "message": "Design Patterns - Common solutions to recurring problems"
+        },
+        {
+          "branch": "system-templates",
+          "node_id": "0",
+          "message": "Project Templates - Reusable starting points"
         },
         {
           "branch": "test-api",

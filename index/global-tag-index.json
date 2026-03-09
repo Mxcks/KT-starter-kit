@@ -1,7 +1,7 @@
 {
-  "generated": "2026-03-09T19:19:12.580614Z",
-  "total_tags": 40,
-  "total_tagged_nodes": 61,
+  "generated": "2026-03-09T19:33:43.895401Z",
+  "total_tags": 67,
+  "total_tagged_nodes": 115,
   "tags": {
     "ai-optimization": {
       "tag": "ai-optimization",
@@ -31,13 +31,34 @@
         }
       ]
     },
+    "api": {
+      "tag": "api",
+      "count": 2,
+      "branches": [
+        "system-patterns",
+        "system-templates"
+      ],
+      "nodes": [
+        {
+          "branch": "system-patterns",
+          "node_id": "7",
+          "message": "Backend for Frontend (BFF) Pattern"
+        },
+        {
+          "branch": "system-templates",
+          "node_id": "1",
+          "message": "Web API Template"
+        }
+      ]
+    },
     "architecture": {
       "tag": "architecture",
-      "count": 5,
+      "count": 8,
       "branches": [
-        "example-todo-app",
         "iss-workflow-example",
         "my-auth-service",
+        "example-todo-app",
+        "system-patterns",
         "system-documentation"
       ],
       "nodes": [
@@ -65,6 +86,21 @@
           "branch": "system-documentation",
           "node_id": 2,
           "message": "Strategic Layer - High-level architecture and decisions"
+        },
+        {
+          "branch": "system-patterns",
+          "node_id": "1",
+          "message": "Repository Pattern"
+        },
+        {
+          "branch": "system-patterns",
+          "node_id": "3",
+          "message": "Event Sourcing Pattern"
+        },
+        {
+          "branch": "system-patterns",
+          "node_id": "4",
+          "message": "CQRS Pattern"
         }
       ]
     },
@@ -96,6 +132,25 @@
         }
       ]
     },
+    "backend": {
+      "tag": "backend",
+      "count": 2,
+      "branches": [
+        "system-templates"
+      ],
+      "nodes": [
+        {
+          "branch": "system-templates",
+          "node_id": "1",
+          "message": "Web API Template"
+        },
+        {
+          "branch": "system-templates",
+          "node_id": "2",
+          "message": "Microservice Template"
+        }
+      ]
+    },
     "branches": {
       "tag": "branches",
       "count": 1,
@@ -107,6 +162,34 @@
           "branch": "iss-workflow-example",
           "node_id": 2,
           "message": "Branch System: Each project is a branch containing nodes (decisions, commits, docs) in knowledge/tree.jsonl format"
+        }
+      ]
+    },
+    "caching": {
+      "tag": "caching",
+      "count": 1,
+      "branches": [
+        "system-patterns"
+      ],
+      "nodes": [
+        {
+          "branch": "system-patterns",
+          "node_id": "10",
+          "message": "Cache-Aside Pattern"
+        }
+      ]
+    },
+    "cli": {
+      "tag": "cli",
+      "count": 1,
+      "branches": [
+        "system-templates"
+      ],
+      "nodes": [
+        {
+          "branch": "system-templates",
+          "node_id": "5",
+          "message": "CLI Tool Template"
         }
       ]
     },
@@ -135,6 +218,54 @@
           "branch": "example-todo-app",
           "node_id": 2,
           "message": "Add task creation functionality"
+        }
+      ]
+    },
+    "data": {
+      "tag": "data",
+      "count": 2,
+      "branches": [
+        "system-patterns",
+        "system-templates"
+      ],
+      "nodes": [
+        {
+          "branch": "system-patterns",
+          "node_id": "3",
+          "message": "Event Sourcing Pattern"
+        },
+        {
+          "branch": "system-templates",
+          "node_id": "4",
+          "message": "Data Pipeline Template"
+        }
+      ]
+    },
+    "data-access": {
+      "tag": "data-access",
+      "count": 1,
+      "branches": [
+        "system-patterns"
+      ],
+      "nodes": [
+        {
+          "branch": "system-patterns",
+          "node_id": "1",
+          "message": "Repository Pattern"
+        }
+      ]
+    },
+    "deployment": {
+      "tag": "deployment",
+      "count": 1,
+      "branches": [
+        "system-patterns"
+      ],
+      "nodes": [
+        {
+          "branch": "system-patterns",
+          "node_id": "9",
+          "message": "Sidecar Pattern"
         }
       ]
     },
@@ -276,6 +407,26 @@
         }
       ]
     },
+    "frontend": {
+      "tag": "frontend",
+      "count": 2,
+      "branches": [
+        "system-patterns",
+        "system-templates"
+      ],
+      "nodes": [
+        {
+          "branch": "system-patterns",
+          "node_id": "7",
+          "message": "Backend for Frontend (BFF) Pattern"
+        },
+        {
+          "branch": "system-templates",
+          "node_id": "3",
+          "message": "Frontend SPA Template"
+        }
+      ]
+    },
     "implementation": {
       "tag": "implementation",
       "count": 3,
@@ -317,11 +468,13 @@
     },
     "init": {
       "tag": "init",
-      "count": 3,
+      "count": 5,
       "branches": [
+        "system-templates",
         "iss-workflow-example",
-        "test-api",
-        "my-auth-service"
+        "my-auth-service",
+        "system-patterns",
+        "test-api"
       ],
       "nodes": [
         {
@@ -335,9 +488,33 @@
           "message": "Authentication microservice"
         },
         {
+          "branch": "system-patterns",
+          "node_id": "0",
+          "message": "Design Patterns - Common solutions to recurring problems"
+        },
+        {
+          "branch": "system-templates",
+          "node_id": "0",
+          "message": "Project Templates - Reusable starting points"
+        },
+        {
           "branch": "test-api",
           "node_id": 0,
           "message": "REST API for todo app"
+        }
+      ]
+    },
+    "isolation": {
+      "tag": "isolation",
+      "count": 1,
+      "branches": [
+        "system-patterns"
+      ],
+      "nodes": [
+        {
+          "branch": "system-patterns",
+          "node_id": "8",
+          "message": "Bulkhead Pattern"
         }
       ]
     },
@@ -392,6 +569,86 @@
           "branch": "system-documentation",
           "node_id": 4,
           "message": "Implementation Layer - Specific code and details"
+        }
+      ]
+    },
+    "legacy": {
+      "tag": "legacy",
+      "count": 1,
+      "branches": [
+        "system-patterns"
+      ],
+      "nodes": [
+        {
+          "branch": "system-patterns",
+          "node_id": "6",
+          "message": "Strangler Fig Pattern"
+        }
+      ]
+    },
+    "library": {
+      "tag": "library",
+      "count": 1,
+      "branches": [
+        "system-templates"
+      ],
+      "nodes": [
+        {
+          "branch": "system-templates",
+          "node_id": "6",
+          "message": "Library/Package Template"
+        }
+      ]
+    },
+    "microservice": {
+      "tag": "microservice",
+      "count": 1,
+      "branches": [
+        "system-templates"
+      ],
+      "nodes": [
+        {
+          "branch": "system-templates",
+          "node_id": "2",
+          "message": "Microservice Template"
+        }
+      ]
+    },
+    "microservices": {
+      "tag": "microservices",
+      "count": 3,
+      "branches": [
+        "system-patterns"
+      ],
+      "nodes": [
+        {
+          "branch": "system-patterns",
+          "node_id": "2",
+          "message": "Circuit Breaker Pattern"
+        },
+        {
+          "branch": "system-patterns",
+          "node_id": "5",
+          "message": "Saga Pattern"
+        },
+        {
+          "branch": "system-patterns",
+          "node_id": "9",
+          "message": "Sidecar Pattern"
+        }
+      ]
+    },
+    "migration": {
+      "tag": "migration",
+      "count": 1,
+      "branches": [
+        "system-patterns"
+      ],
+      "nodes": [
+        {
+          "branch": "system-patterns",
+          "node_id": "6",
+          "message": "Strangler Fig Pattern"
         }
       ]
     },
@@ -465,6 +722,140 @@
         }
       ]
     },
+    "package": {
+      "tag": "package",
+      "count": 1,
+      "branches": [
+        "system-templates"
+      ],
+      "nodes": [
+        {
+          "branch": "system-templates",
+          "node_id": "6",
+          "message": "Library/Package Template"
+        }
+      ]
+    },
+    "pattern": {
+      "tag": "pattern",
+      "count": 10,
+      "branches": [
+        "system-patterns"
+      ],
+      "nodes": [
+        {
+          "branch": "system-patterns",
+          "node_id": "1",
+          "message": "Repository Pattern"
+        },
+        {
+          "branch": "system-patterns",
+          "node_id": "2",
+          "message": "Circuit Breaker Pattern"
+        },
+        {
+          "branch": "system-patterns",
+          "node_id": "3",
+          "message": "Event Sourcing Pattern"
+        },
+        {
+          "branch": "system-patterns",
+          "node_id": "4",
+          "message": "CQRS Pattern"
+        },
+        {
+          "branch": "system-patterns",
+          "node_id": "5",
+          "message": "Saga Pattern"
+        },
+        {
+          "branch": "system-patterns",
+          "node_id": "6",
+          "message": "Strangler Fig Pattern"
+        },
+        {
+          "branch": "system-patterns",
+          "node_id": "7",
+          "message": "Backend for Frontend (BFF) Pattern"
+        },
+        {
+          "branch": "system-patterns",
+          "node_id": "8",
+          "message": "Bulkhead Pattern"
+        },
+        {
+          "branch": "system-patterns",
+          "node_id": "9",
+          "message": "Sidecar Pattern"
+        },
+        {
+          "branch": "system-patterns",
+          "node_id": "10",
+          "message": "Cache-Aside Pattern"
+        }
+      ]
+    },
+    "patterns": {
+      "tag": "patterns",
+      "count": 1,
+      "branches": [
+        "system-patterns"
+      ],
+      "nodes": [
+        {
+          "branch": "system-patterns",
+          "node_id": "0",
+          "message": "Design Patterns - Common solutions to recurring problems"
+        }
+      ]
+    },
+    "performance": {
+      "tag": "performance",
+      "count": 1,
+      "branches": [
+        "system-patterns"
+      ],
+      "nodes": [
+        {
+          "branch": "system-patterns",
+          "node_id": "10",
+          "message": "Cache-Aside Pattern"
+        }
+      ]
+    },
+    "pipeline": {
+      "tag": "pipeline",
+      "count": 1,
+      "branches": [
+        "system-templates"
+      ],
+      "nodes": [
+        {
+          "branch": "system-templates",
+          "node_id": "4",
+          "message": "Data Pipeline Template"
+        }
+      ]
+    },
+    "resilience": {
+      "tag": "resilience",
+      "count": 2,
+      "branches": [
+        "system-patterns"
+      ],
+      "nodes": [
+        {
+          "branch": "system-patterns",
+          "node_id": "2",
+          "message": "Circuit Breaker Pattern"
+        },
+        {
+          "branch": "system-patterns",
+          "node_id": "8",
+          "message": "Bulkhead Pattern"
+        }
+      ]
+    },
     "roadmap": {
       "tag": "roadmap",
       "count": 1,
@@ -476,6 +867,20 @@
           "branch": "iss-workflow-example",
           "node_id": 7,
           "message": "Missing Systems: Lenses (domain views), Tag Trees (hierarchical tags), Core Engine (tree_engine.py), Query Engine (advanced searches)"
+        }
+      ]
+    },
+    "scalability": {
+      "tag": "scalability",
+      "count": 1,
+      "branches": [
+        "system-patterns"
+      ],
+      "nodes": [
+        {
+          "branch": "system-patterns",
+          "node_id": "4",
+          "message": "CQRS Pattern"
         }
       ]
     },
@@ -509,6 +914,20 @@
           "branch": "example-todo-app",
           "node_id": 0,
           "message": "Example Todo App - Example Project"
+        }
+      ]
+    },
+    "spa": {
+      "tag": "spa",
+      "count": 1,
+      "branches": [
+        "system-templates"
+      ],
+      "nodes": [
+        {
+          "branch": "system-templates",
+          "node_id": "3",
+          "message": "Frontend SPA Template"
         }
       ]
     },
@@ -554,6 +973,26 @@
         }
       ]
     },
+    "system": {
+      "tag": "system",
+      "count": 2,
+      "branches": [
+        "system-patterns",
+        "system-templates"
+      ],
+      "nodes": [
+        {
+          "branch": "system-patterns",
+          "node_id": "0",
+          "message": "Design Patterns - Common solutions to recurring problems"
+        },
+        {
+          "branch": "system-templates",
+          "node_id": "0",
+          "message": "Project Templates - Reusable starting points"
+        }
+      ]
+    },
     "tactical": {
       "tag": "tactical",
       "count": 1,
@@ -565,6 +1004,59 @@
           "branch": "system-documentation",
           "node_id": 3,
           "message": "Tactical Layer - Implementation approaches and modules"
+        }
+      ]
+    },
+    "template": {
+      "tag": "template",
+      "count": 6,
+      "branches": [
+        "system-templates"
+      ],
+      "nodes": [
+        {
+          "branch": "system-templates",
+          "node_id": "1",
+          "message": "Web API Template"
+        },
+        {
+          "branch": "system-templates",
+          "node_id": "2",
+          "message": "Microservice Template"
+        },
+        {
+          "branch": "system-templates",
+          "node_id": "3",
+          "message": "Frontend SPA Template"
+        },
+        {
+          "branch": "system-templates",
+          "node_id": "4",
+          "message": "Data Pipeline Template"
+        },
+        {
+          "branch": "system-templates",
+          "node_id": "5",
+          "message": "CLI Tool Template"
+        },
+        {
+          "branch": "system-templates",
+          "node_id": "6",
+          "message": "Library/Package Template"
+        }
+      ]
+    },
+    "templates": {
+      "tag": "templates",
+      "count": 1,
+      "branches": [
+        "system-templates"
+      ],
+      "nodes": [
+        {
+          "branch": "system-templates",
+          "node_id": "0",
+          "message": "Project Templates - Reusable starting points"
         }
       ]
     },
@@ -599,6 +1091,34 @@
           "branch": "system-documentation",
           "node_id": 6,
           "message": "Token Efficiency - Why this matters"
+        }
+      ]
+    },
+    "tool": {
+      "tag": "tool",
+      "count": 1,
+      "branches": [
+        "system-templates"
+      ],
+      "nodes": [
+        {
+          "branch": "system-templates",
+          "node_id": "5",
+          "message": "CLI Tool Template"
+        }
+      ]
+    },
+    "transactions": {
+      "tag": "transactions",
+      "count": 1,
+      "branches": [
+        "system-patterns"
+      ],
+      "nodes": [
+        {
+          "branch": "system-patterns",
+          "node_id": "5",
+          "message": "Saga Pattern"
         }
       ]
     },

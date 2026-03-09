@@ -1,7 +1,7 @@
 {
-  "generated": "2026-03-09T19:19:12.579117Z",
-  "total_branches": 5,
-  "total_nodes": 25,
+  "generated": "2026-03-09T19:33:43.893901Z",
+  "total_branches": 7,
+  "total_nodes": 43,
   "branches": {
     "example-todo-app": {
       "name": "example-todo-app",
@@ -10,20 +10,20 @@
       "description": "Example Todo App - Example Project",
       "created": "2026-03-09T18:36:20.143976Z",
       "tags": [
-        "simple",
+        "milestone",
         "architecture",
-        "feature",
         "storage",
-        "crud",
         "ui",
+        "crud",
+        "simple",
         "example",
-        "milestone"
+        "feature"
       ],
       "node_types": [
-        "commit",
-        "init",
+        "summary",
         "decision",
-        "summary"
+        "init",
+        "commit"
       ]
     },
     "iss-workflow-example": {
@@ -33,27 +33,27 @@
       "description": "Complete workflow: Branch \u2192 Nodes \u2192 ISS \u2192 Queries",
       "created": "2026-03-09T19:09:29.730879Z",
       "tags": [
-        "overview",
-        "documentation",
-        "types",
-        "token-efficiency",
-        "workflow",
         "iss",
         "init",
-        "core",
+        "nodes",
         "architecture",
         "indexing",
-        "roadmap",
-        "nodes",
+        "workflow",
+        "core",
         "missing-features",
-        "summarization",
-        "branches"
+        "branches",
+        "token-efficiency",
+        "overview",
+        "roadmap",
+        "documentation",
+        "types",
+        "summarization"
       ],
       "node_types": [
-        "commit",
-        "init",
         "decision",
-        "documentation"
+        "init",
+        "documentation",
+        "commit"
       ]
     },
     "my-auth-service": {
@@ -63,16 +63,16 @@
       "description": "Authentication microservice",
       "created": "2026-03-09T18:45:58.777640Z",
       "tags": [
-        "security",
-        "implementation",
-        "architecture",
         "init",
-        "auth"
+        "architecture",
+        "auth",
+        "security",
+        "implementation"
       ],
       "node_types": [
-        "commit",
+        "decision",
         "init",
-        "decision"
+        "commit"
       ]
     },
     "system-documentation": {
@@ -82,30 +82,90 @@
       "description": "Fractal Documentation System - AI-optimized hierarchical documentation",
       "created": "2026-03-09T19:03:00Z",
       "tags": [
-        "implementation",
-        "fractal",
-        "iss",
-        "examples",
-        "workflows",
-        "efficiency",
-        "use-cases",
-        "ai-optimization",
-        "discovery",
-        "details",
-        "ai-optimized",
-        "automation",
-        "tactical",
-        "documentation",
-        "token-efficiency",
         "tokens",
-        "architecture",
+        "implementation",
+        "use-cases",
+        "examples",
         "operational",
+        "discovery",
+        "workflows",
+        "strategic",
+        "efficiency",
+        "ai-optimization",
+        "token-efficiency",
+        "automation",
+        "documentation",
+        "iss",
+        "fractal",
+        "tactical",
         "layer-system",
-        "strategic"
+        "architecture",
+        "details",
+        "ai-optimized"
+      ],
+      "node_types": [
+        "decision",
+        "init",
+        "documentation"
+      ]
+    },
+    "system-patterns": {
+      "name": "system-patterns",
+      "path": "C:\\dev\\KT-starter-kit\\branches\\system-patterns",
+      "node_count": 11,
+      "description": "Design Patterns - Common solutions to recurring problems",
+      "created": "2026-03-09T19:33:39.504874Z",
+      "tags": [
+        "frontend",
+        "scalability",
+        "legacy",
+        "patterns",
+        "init",
+        "caching",
+        "performance",
+        "transactions",
+        "microservices",
+        "migration",
+        "data-access",
+        "data",
+        "resilience",
+        "architecture",
+        "pattern",
+        "api",
+        "isolation",
+        "system",
+        "deployment"
       ],
       "node_types": [
         "init",
-        "decision",
+        "documentation"
+      ]
+    },
+    "system-templates": {
+      "name": "system-templates",
+      "path": "C:\\dev\\KT-starter-kit\\branches\\system-templates",
+      "node_count": 7,
+      "description": "Project Templates - Reusable starting points",
+      "created": "2026-03-09T19:32:39.760983Z",
+      "tags": [
+        "init",
+        "frontend",
+        "spa",
+        "api",
+        "cli",
+        "system",
+        "pipeline",
+        "tool",
+        "microservice",
+        "data",
+        "package",
+        "templates",
+        "backend",
+        "library",
+        "template"
+      ],
+      "node_types": [
+        "init",
         "documentation"
       ]
     },

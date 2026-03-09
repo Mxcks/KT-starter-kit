@@ -1,6 +1,6 @@
 {
-  "generated": "2026-03-09T19:19:12.586623Z",
-  "total_entries": 25,
+  "generated": "2026-03-09T19:33:43.900901Z",
+  "total_entries": 43,
   "entries": [
     {
       "branch": "example-todo-app",
@@ -301,6 +301,240 @@
       ],
       "timestamp": "2026-03-09T19:03:00Z",
       "searchable_text": "usage examples - real-world applications  use cases: (1) planning new features - load strategic layers of related projects. (2) code review - load tactical + implementation of specific modules. (3) architecture decisions - compare strategic layers across multiple projects. (4) onboarding - progressive loading from macro to micro. (5) cross-project analysis - scan strategic layers of entire codebase. examples use-cases workflows"
+    },
+    {
+      "branch": "system-patterns",
+      "node_id": "0",
+      "type": "init",
+      "message": "Design Patterns - Common solutions to recurring problems",
+      "tags": [
+        "patterns",
+        "system",
+        "init"
+      ],
+      "timestamp": "2026-03-09T19:33:39.504874Z",
+      "searchable_text": "design patterns - common solutions to recurring problems   patterns system init"
+    },
+    {
+      "branch": "system-patterns",
+      "node_id": "1",
+      "type": "documentation",
+      "message": "Repository Pattern",
+      "tags": [
+        "pattern",
+        "data-access",
+        "architecture"
+      ],
+      "timestamp": "",
+      "searchable_text": "repository pattern abstracts data access, enables testing, centralizes data logic {'pattern_name': 'repository', 'category': 'data access', 'problem': 'direct database access scattered throughout codebase', 'solution': 'single source of truth for data operations', 'when_to_use': ['need to swap data sources', 'want to test business logic without database', 'multiple data access points', 'complex queries need centralization'], 'example': {'interface': 'iuserrepository with get(), save(), delete()', 'implementation': 'userrepository implements iuserrepository', 'usage': 'service depends on iuserrepository, not database'}} pattern data-access architecture"
+    },
+    {
+      "branch": "system-patterns",
+      "node_id": "2",
+      "type": "documentation",
+      "message": "Circuit Breaker Pattern",
+      "tags": [
+        "pattern",
+        "resilience",
+        "microservices"
+      ],
+      "timestamp": "",
+      "searchable_text": "circuit breaker pattern prevents cascading failures in distributed systems {'pattern_name': 'circuit breaker', 'category': 'resilience', 'problem': 'failing service causes timeout waits and cascading failures', 'solution': 'detect failures and short-circuit requests to failing service', 'states': ['closed (normal)', 'open (failing)', 'half-open (testing)'], 'when_to_use': ['calling external services', 'microservice architecture', 'need to prevent cascade failures', 'want to fail fast'], 'thresholds': {'failure_count': 'e.g., 5 failures', 'timeout': 'e.g., 30 seconds', 'retry_after': 'e.g., 60 seconds'}} pattern resilience microservices"
+    },
+    {
+      "branch": "system-patterns",
+      "node_id": "3",
+      "type": "documentation",
+      "message": "Event Sourcing Pattern",
+      "tags": [
+        "pattern",
+        "data",
+        "architecture"
+      ],
+      "timestamp": "",
+      "searchable_text": "event sourcing pattern capture all changes as sequence of events, enables audit trail and time travel {'pattern_name': 'event sourcing', 'category': 'data management', 'problem': 'lost history of state changes, difficult audit trail', 'solution': 'store events instead of current state, rebuild state from events', 'when_to_use': ['need complete audit trail', 'want to replay events', 'temporal queries needed', 'complex business logic with state changes'], 'components': ['event store', 'event stream', 'projections/views', 'snapshots'], 'benefits': ['complete history', 'time travel', 'event replay', 'audit trail'], 'challenges': ['eventual consistency', 'schema evolution', 'snapshot management']} pattern data architecture"
+    },
+    {
+      "branch": "system-patterns",
+      "node_id": "4",
+      "type": "documentation",
+      "message": "CQRS Pattern",
+      "tags": [
+        "pattern",
+        "architecture",
+        "scalability"
+      ],
+      "timestamp": "",
+      "searchable_text": "cqrs pattern separate read and write models for scalability and clarity {'pattern_name': 'cqrs (command query responsibility segregation)', 'category': 'architecture', 'problem': 'same model for reads and writes leads to complexity', 'solution': 'separate models: commands (write) and queries (read)', 'when_to_use': ['read and write patterns differ significantly', 'need to scale reads independently', 'complex business logic on writes', 'different consistency requirements'], 'components': {'command side': 'handles writes, enforces business rules', 'query side': 'optimized read models, denormalized', 'sync mechanism': 'events, cdc, or direct sync'}} pattern architecture scalability"
+    },
+    {
+      "branch": "system-patterns",
+      "node_id": "5",
+      "type": "documentation",
+      "message": "Saga Pattern",
+      "tags": [
+        "pattern",
+        "microservices",
+        "transactions"
+      ],
+      "timestamp": "",
+      "searchable_text": "saga pattern manage distributed transactions across microservices {'pattern_name': 'saga', 'category': 'distributed transactions', 'problem': 'no acid transactions across microservices', 'solution': 'sequence of local transactions with compensating actions', 'types': {'choreography': 'each service publishes events, others react', 'orchestration': 'central coordinator directs the saga'}, 'when_to_use': ['multi-service transactions', 'need eventual consistency', 'can define compensating actions', 'business process spans services'], 'example': 'order saga: reserve inventory \u2192 charge payment \u2192 ship order (with compensations)'} pattern microservices transactions"
+    },
+    {
+      "branch": "system-patterns",
+      "node_id": "6",
+      "type": "documentation",
+      "message": "Strangler Fig Pattern",
+      "tags": [
+        "pattern",
+        "migration",
+        "legacy"
+      ],
+      "timestamp": "",
+      "searchable_text": "strangler fig pattern gradually replace legacy system without big-bang rewrite {'pattern_name': 'strangler fig', 'category': 'migration', 'problem': \"legacy system needs replacement but can't stop business\", 'solution': 'incrementally replace functionality, routing traffic to new system', 'phases': ['phase 1: setup routing/facade', 'phase 2: implement new features in new system', 'phase 3: migrate existing features incrementally', 'phase 4: decommission old system'], 'when_to_use': ['legacy system modernization', 'cannot afford downtime', 'risk mitigation needed', 'incremental value delivery']} pattern migration legacy"
+    },
+    {
+      "branch": "system-patterns",
+      "node_id": "7",
+      "type": "documentation",
+      "message": "Backend for Frontend (BFF) Pattern",
+      "tags": [
+        "pattern",
+        "api",
+        "frontend"
+      ],
+      "timestamp": "",
+      "searchable_text": "backend for frontend (bff) pattern tailor backend apis to specific frontend needs {'pattern_name': 'backend for frontend (bff)', 'category': 'api design', 'problem': \"generic api doesn't fit mobile, web, and desktop needs\", 'solution': 'create separate backend layer for each frontend type', 'when_to_use': ['multiple frontend types (web, mobile, desktop)', 'different data requirements per frontend', 'need to optimize for client constraints', 'want to isolate frontend-specific logic'], 'examples': ['mobile bff: optimized payloads, offline support', 'web bff: rich data, pagination', 'iot bff: minimal data, batch updates']} pattern api frontend"
+    },
+    {
+      "branch": "system-patterns",
+      "node_id": "8",
+      "type": "documentation",
+      "message": "Bulkhead Pattern",
+      "tags": [
+        "pattern",
+        "resilience",
+        "isolation"
+      ],
+      "timestamp": "",
+      "searchable_text": "bulkhead pattern isolate resources to prevent total system failure {'pattern_name': 'bulkhead', 'category': 'resilience', 'problem': 'one failing component consumes all resources', 'solution': 'partition resources so failure is isolated', 'when_to_use': ['shared resource pools', 'multi-tenant systems', 'need fault isolation', 'prevent cascade failures'], 'examples': ['separate thread pools per service', 'connection pool per client', 'rate limits per tenant'], 'analogy': 'ship bulkheads: one compartment floods, ship stays afloat'} pattern resilience isolation"
+    },
+    {
+      "branch": "system-patterns",
+      "node_id": "9",
+      "type": "documentation",
+      "message": "Sidecar Pattern",
+      "tags": [
+        "pattern",
+        "microservices",
+        "deployment"
+      ],
+      "timestamp": "",
+      "searchable_text": "sidecar pattern extend application functionality without changing code {'pattern_name': 'sidecar', 'category': 'deployment', 'problem': 'cross-cutting concerns duplicate across services', 'solution': 'deploy helper container alongside main service', 'when_to_use': ['logging, monitoring, configuration', 'service mesh components', 'proxy/load balancing', 'multi-language support'], 'common_sidecars': ['envoy proxy', 'log forwarder', 'config watcher', 'metrics collector'], 'benefits': ['language agnostic', 'isolation', 'independent updates']} pattern microservices deployment"
+    },
+    {
+      "branch": "system-patterns",
+      "node_id": "10",
+      "type": "documentation",
+      "message": "Cache-Aside Pattern",
+      "tags": [
+        "pattern",
+        "caching",
+        "performance"
+      ],
+      "timestamp": "",
+      "searchable_text": "cache-aside pattern application manages cache, reads from cache first {'pattern_name': 'cache-aside', 'category': 'caching', 'problem': 'database queries too slow for common reads', 'solution': 'check cache first, load from db on miss, populate cache', 'flow': ['1. check cache for data', '2. if miss, load from database', '3. populate cache with result', '4. return data'], 'when_to_use': ['read-heavy workloads', 'expensive queries', 'tolerate slight staleness', 'application controls caching logic'], 'considerations': ['ttl strategy', 'eviction policy', 'cache invalidation']} pattern caching performance"
+    },
+    {
+      "branch": "system-templates",
+      "node_id": "0",
+      "type": "init",
+      "message": "Project Templates - Reusable starting points",
+      "tags": [
+        "templates",
+        "system",
+        "init"
+      ],
+      "timestamp": "2026-03-09T19:32:39.760983Z",
+      "searchable_text": "project templates - reusable starting points   templates system init"
+    },
+    {
+      "branch": "system-templates",
+      "node_id": "1",
+      "type": "documentation",
+      "message": "Web API Template",
+      "tags": [
+        "template",
+        "api",
+        "backend"
+      ],
+      "timestamp": "",
+      "searchable_text": "web api template standard rest api structure with authentication, crud endpoints, and documentation {'template_name': 'web-api', 'stack': ['node.js/express', 'python/fastapi', 'go/gin'], 'features': ['jwt authentication', 'crud operations', 'openapi/swagger docs', 'rate limiting', 'error handling', 'logging'], 'structure': {'src/': {'routes/': 'api endpoints', 'models/': 'data models', 'middleware/': 'auth, validation, etc.', 'services/': 'business logic', 'utils/': 'helper functions'}, 'tests/': 'unit and integration tests', 'docs/': 'api documentation', 'config/': 'configuration files'}} template api backend"
+    },
+    {
+      "branch": "system-templates",
+      "node_id": "2",
+      "type": "documentation",
+      "message": "Microservice Template",
+      "tags": [
+        "template",
+        "microservice",
+        "backend"
+      ],
+      "timestamp": "",
+      "searchable_text": "microservice template independent service with message queue, health checks, and observability {'template_name': 'microservice', 'components': ['service core', 'message queue consumer/producer', 'health check endpoints', 'metrics/monitoring', 'service discovery'], 'patterns': ['circuit breaker', 'retry logic', 'graceful shutdown', 'config management']} template microservice backend"
+    },
+    {
+      "branch": "system-templates",
+      "node_id": "3",
+      "type": "documentation",
+      "message": "Frontend SPA Template",
+      "tags": [
+        "template",
+        "frontend",
+        "spa"
+      ],
+      "timestamp": "",
+      "searchable_text": "frontend spa template single-page application with routing, state management, and component library {'template_name': 'frontend-spa', 'stack': ['react', 'vue', 'angular', 'svelte'], 'features': ['routing', 'state management (redux/vuex/etc.)', 'api integration', 'authentication flow', 'component library', 'responsive design'], 'structure': {'src/': {'components/': 'reusable ui components', 'pages/': 'page-level components', 'store/': 'state management', 'services/': 'api clients', 'hooks/': 'custom hooks/composables', 'styles/': 'global styles/themes'}, 'public/': 'static assets'}} template frontend spa"
+    },
+    {
+      "branch": "system-templates",
+      "node_id": "4",
+      "type": "documentation",
+      "message": "Data Pipeline Template",
+      "tags": [
+        "template",
+        "data",
+        "pipeline"
+      ],
+      "timestamp": "",
+      "searchable_text": "data pipeline template etl/elt pipeline with orchestration, monitoring, and data quality checks {'template_name': 'data-pipeline', 'components': ['data ingestion (batch/streaming)', 'transformation logic', 'data validation/quality', 'error handling/retry', 'orchestration (airflow/prefect)', 'monitoring/alerting'], 'patterns': ['idempotent operations', 'incremental processing', 'partitioning strategy', 'schema evolution']} template data pipeline"
+    },
+    {
+      "branch": "system-templates",
+      "node_id": "5",
+      "type": "documentation",
+      "message": "CLI Tool Template",
+      "tags": [
+        "template",
+        "cli",
+        "tool"
+      ],
+      "timestamp": "",
+      "searchable_text": "cli tool template command-line tool with subcommands, config, and user-friendly output {'template_name': 'cli-tool', 'features': ['subcommands (init, run, status, etc.)', 'config file support (yaml/json)', 'progress indicators', 'colored output', 'auto-completion', 'help text/documentation'], 'structure': {'cli/': {'commands/': 'command implementations', 'config.py': 'config loading/saving', 'output.py': 'formatted output helpers', 'main.py': 'entry point'}}} template cli tool"
+    },
+    {
+      "branch": "system-templates",
+      "node_id": "6",
+      "type": "documentation",
+      "message": "Library/Package Template",
+      "tags": [
+        "template",
+        "library",
+        "package"
+      ],
+      "timestamp": "",
+      "searchable_text": "library/package template reusable library with clean api, documentation, and testing {'template_name': 'library-package', 'components': ['public api (clean interface)', 'internal implementation', 'comprehensive tests', 'api documentation', 'examples/tutorials', 'changelog'], 'best_practices': ['semantic versioning', 'backward compatibility', 'clear deprecation policy', 'type hints/annotations', 'performance benchmarks']} template library package"
     },
     {
       "branch": "test-api",
