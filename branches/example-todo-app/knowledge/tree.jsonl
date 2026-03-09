@@ -1,0 +1,5 @@
+{"id": 0, "type": "init", "branch": "example-todo-app", "message": "Example Todo App - Example Project", "timestamp": "2026-03-09T18:36:20.143976Z", "tags": ["example", "simple"]}
+{"id": 1, "type": "decision", "message": "Use localStorage for data persistence", "reasoning": "Simple, no backend needed, good for learning", "decision": "localStorage with JSON serialization", "tags": ["architecture", "storage"], "timestamp": "2026-03-09T18:36:20.143976Z"}
+{"id": 2, "type": "commit", "message": "Add task creation functionality", "content": "Users can add new tasks with title and description", "tags": ["feature", "crud"], "timestamp": "2026-03-09T18:36:20.143976Z"}
+{"id": 3, "type": "commit", "message": "Add task completion toggle", "content": "Click checkbox to mark tasks complete/incomplete", "tags": ["feature", "ui"], "timestamp": "2026-03-09T18:36:20.143976Z"}
+{"id": 4, "type": "summary", "message": "Basic CRUD operations complete", "content": "Todo app has create, read, update (toggle), and persist to localStorage. Ready for basic use.", "tags": ["milestone"], "timestamp": "2026-03-09T18:36:20.143976Z"}
