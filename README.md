@@ -42,32 +42,45 @@ Need details? → Load tactical/implementation progressively
 ### 1. Install
 
 ```bash
-git clone https://github.com/yourusername/kt-starter-kit.git
+git clone https://github.com/Mxcks/KT-starter-kit.git
 cd kt-starter-kit
-pip install -r requirements.txt
+pip install -r requirements.txt  # (no dependencies currently!)
 ```
 
-### 2. See It In Action
+### 2. Create Your First Project
 
 ```bash
-# View the system-documentation branch (demonstrates fractal pattern)
-python tools/kt-integration/tools/iss-query.py layer system-documentation strategic
+# Initialize a project
+python kt.py init my-first-project "Learning Knowledge Tree"
 
-# Generate summaries for your own project
-python branches/system-documentation/tools/kt-hierarchical-summarizer.py --branch my-project
+# Add nodes as you work
+python kt.py add decision "Use Python for backend" --branch my-first-project \
+  --reasoning "Team expertise, great libraries"
+
+python kt.py add commit "Set up project structure" --branch my-first-project
+
+# View your work
+python kt.py tree my-first-project
 ```
 
-### 3. Integrate with OpenClaw
+### 3. Generate Fractal Summaries
 
 ```bash
-# Set your KT path
-set KT_ROOT=C:\path\to\kt-starter-kit
+# Generate 3-layer summaries
+python branches/system-documentation/tools/kt-hierarchical-summarizer.py --branch my-first-project
 
-# Install kt-integration skill
-clawhub install ./tools/kt-integration
+# Update ISS indexes
+python branches/system-documentation/tools/iss-hierarchical-indexer.py
+```
 
-# Query from OpenClaw
-python tools/kt-integration/tools/kt-index.py stats
+### 4. Query via AI
+
+```bash
+# Search for context
+python tools/kt-integration/tools/iss-query.py search "python"
+
+# Load strategic layer (97% token savings!)
+python tools/kt-integration/tools/iss-query.py layer my-first-project strategic
 ```
 
 ---

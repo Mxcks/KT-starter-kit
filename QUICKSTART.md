@@ -31,14 +31,34 @@ python --version
 
 ### Step 1: Create a Branch with Nodes (2 min)
 
-**Option A: Use the automation script**
+**Option A: Use the CLI (Recommended)**
+```bash
+# Initialize a new project
+python kt.py init my-project "My awesome project description"
+
+# Add nodes as you work
+python kt.py add decision "Use React for frontend" --branch my-project \
+  --reasoning "Component-based, large ecosystem" \
+  --tags "architecture,frontend"
+
+python kt.py add commit "Set up project structure" --branch my-project \
+  --tags "setup"
+
+python kt.py add doc "API follows REST principles" --branch my-project \
+  --tags "architecture,api"
+
+# View your nodes
+python kt.py tree my-project
+```
+
+**Option B: Use the automation script**
 ```bash
 python create-example.py
 ```
 
 This creates `example-todo-app` branch with 5 nodes demonstrating a simple todo application.
 
-**Option B: Create manually**
+**Option C: Create manually**
 ```bash
 # Create branch structure
 mkdir -p branches/my-project/knowledge
