@@ -1,0 +1,36 @@
+{
+  "lens_name": "onboarding-lens",
+  "metadata": {
+    "display_name": "New Developer Onboarding",
+    "description": "Essential knowledge for getting started with the project",
+    "version": "1.0.0",
+    "author": "system",
+    "icon": "🚀",
+    "color": "#95E1D3",
+    "created": "2026-02-15",
+    "use_cases": [
+      "Onboarding new developers",
+      "Getting started guides",
+      "Project orientation",
+      "First contribution prep"
+    ]
+  },
+  
+  "selection": {
+    "node_types": ["documentation", "decision", "pattern", "example", "guide"],
+    "statuses": ["active", "confirmed"],
+    "tags": {
+      "include": ["onboarding", "getting-started", "setup", "architecture", "important", "beginner-friendly"],
+      "exclude": ["deprecated", "advanced-only"]
+    },
+    "projects": ["*"],
+    "branches": ["main", "master"]
+  },
+  
+  "presentation": {
+    "format": "template",
+    "group_by": "category",
+    "sort_by": "priority",
+    "limit": 50
+  }
+}

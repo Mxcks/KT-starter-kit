@@ -1,0 +1,42 @@
+{
+  "lens_name": "debugging-lens",
+  "metadata": {
+    "display_name": "Debugging & Error Analysis",
+    "description": "Focus on active bugs, errors, and troubleshooting information",
+    "version": "1.0.0",
+    "author": "system",
+    "icon": "🔍",
+    "color": "#FF6B6B",
+    "created": "2026-02-15",
+    "use_cases": [
+      "Bug fixing",
+      "Error analysis",
+      "Troubleshooting production issues",
+      "Daily debugging work"
+    ]
+  },
+  
+  "selection": {
+    "node_types": ["error", "bug", "issue", "workaround"],
+    "statuses": ["active", "investigating", "critical"],
+    "tags": {
+      "include": ["bug", "error", "crash", "exception", "failure"],
+      "exclude": ["resolved", "wontfix", "duplicate"]
+    },
+    "date_range": {
+      "from": "last_30_days",
+      "to": "now"
+    },
+    "projects": ["*"],
+    "branches": ["*"]
+  },
+  
+  "presentation": {
+    "format": "tree",
+    "group_by": "project",
+    "sort_by": "priority",
+    "depth": 5,
+    "show_metadata": true,
+    "show_relationships": true
+  }
+}

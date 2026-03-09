@@ -1,0 +1,69 @@
+{
+  "lens_name": "project-mapping-lens",
+  "metadata": {
+    "display_name": "📊 Project Knowledge Map",
+    "description": "Visualize how knowledge is distributed across all your projects - see which projects have the most documentation, decisions, and patterns",
+    "version": "1.0.0",
+    "author": "system",
+    "icon": "📊",
+    "color": "#9B59B6",
+    "created": "2026-02-18",
+    "use_cases": [
+      "Understanding knowledge distribution across projects",
+      "Identifying which projects need more documentation",
+      "Finding cross-project patterns and shared knowledge",
+      "Portfolio-level knowledge analysis",
+      "Onboarding overview - see all projects at a glance"
+    ],
+    "explanation": {
+      "what": "Groups all knowledge nodes by their project/branch, showing you a birds-eye view of your entire knowledge portfolio",
+      "why": "Helps you see which projects are well-documented vs under-documented, identify knowledge gaps, and understand the scope of each project",
+      "when": "Use this when starting a new session, planning work across projects, or reviewing your knowledge portfolio health",
+      "how": "Each project becomes a group showing all its nodes (decisions, research, blockers, etc.). Projects with more nodes appear larger/more prominent"
+    }
+  },
+  
+  "selection": {
+    "node_types": ["*"],
+    "statuses": ["*"],
+    "tags": {
+      "include": ["*"],
+      "exclude": ["deprecated", "archived", "test"]
+    },
+    "projects": ["*"],
+    "branches": ["*"]
+  },
+  
+  "presentation": {
+    "format": "grouped_tree",
+    "group_by": "branch",
+    "sort_by": "node_count",
+    "depth": 3,
+    "show_metadata": true,
+    "show_stats_per_group": true,
+    "stats_to_show": [
+      "total_nodes",
+      "useful_count",
+      "blocker_count",
+      "decision_count",
+      "last_updated"
+    ],
+    "visual_hints": {
+      "show_node_counts": true,
+      "show_health_indicator": true,
+      "highlight_blockers": true,
+      "show_activity_timeline": true
+    }
+  },
+  
+  "insights": {
+    "auto_generate": true,
+    "insights_to_show": [
+      "most_documented_project",
+      "least_documented_project",
+      "most_blockers",
+      "most_recent_activity",
+      "stale_projects"
+    ]
+  }
+}

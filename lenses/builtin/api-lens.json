@@ -1,0 +1,35 @@
+{
+  "lens_name": "api-lens",
+  "metadata": {
+    "display_name": "API & Integration",
+    "description": "View API endpoints, integrations, and related decisions",
+    "version": "1.0.0",
+    "author": "system",
+    "icon": "🔌",
+    "color": "#A8E6CF",
+    "created": "2026-02-15",
+    "use_cases": [
+      "API development",
+      "Integration work",
+      "API documentation",
+      "Endpoint design"
+    ]
+  },
+  
+  "selection": {
+    "node_types": ["decision", "design", "endpoint", "integration", "documentation"],
+    "statuses": ["active", "confirmed", "proposed"],
+    "tags": {
+      "include": ["api", "endpoint", "rest", "graphql", "integration", "webhook"],
+      "exclude": ["deprecated", "legacy"]
+    },
+    "projects": ["*"],
+    "branches": ["*"]
+  },
+  
+  "presentation": {
+    "format": "list",
+    "group_by": "project",
+    "sort_by": "alphabetical"
+  }
+}

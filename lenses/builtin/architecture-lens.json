@@ -1,0 +1,35 @@
+{
+  "lens_name": "architecture-lens",
+  "metadata": {
+    "display_name": "Architecture & Design Decisions",
+    "description": "View architectural decisions, patterns, and design choices",
+    "version": "1.0.0",
+    "author": "system",
+    "icon": "🏗️",
+    "color": "#4ECDC4",
+    "created": "2026-02-15",
+    "use_cases": [
+      "Architecture review meetings",
+      "Design decision tracking",
+      "Pattern documentation",
+      "Onboarding architects"
+    ]
+  },
+  
+  "selection": {
+    "node_types": ["*"],
+    "tags": {
+      "include": ["architecture", "design", "pattern", "structure", "microservices", "api"],
+      "exclude": ["deprecated", "obsolete"]
+    },
+    "projects": ["*"],
+    "branches": ["*"]
+  },
+  
+  "presentation": {
+    "format": "tree",
+    "group_by": "type",
+    "sort_by": "timestamp",
+    "show_metadata": true
+  }
+}

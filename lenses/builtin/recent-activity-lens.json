@@ -1,0 +1,36 @@
+{
+  "lens_name": "recent-activity-lens",
+  "metadata": {
+    "display_name": "Recent Activity",
+    "description": "Show recent changes and updates across all projects",
+    "version": "1.0.0",
+    "author": "system",
+    "icon": "🕐",
+    "color": "#C7CEEA",
+    "created": "2026-02-15",
+    "use_cases": [
+      "Daily standup",
+      "Status updates",
+      "What's new review",
+      "Activity monitoring"
+    ]
+  },
+  
+  "selection": {
+    "node_types": ["*"],
+    "statuses": ["active", "proposed", "investigating", "confirmed"],
+    "date_range": {
+      "from": "last_7_days",
+      "to": "now"
+    },
+    "projects": ["*"],
+    "branches": ["*"]
+  },
+  
+  "presentation": {
+    "format": "timeline",
+    "group_by": "date",
+    "sort_by": "timestamp",
+    "limit": 100
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "lens_name": "testing-lens",
+  "metadata": {
+    "display_name": "Testing & Quality",
+    "description": "View testing decisions, coverage, and quality metrics",
+    "version": "1.0.0",
+    "author": "system",
+    "icon": "✅",
+    "color": "#B4E7CE",
+    "created": "2026-02-15",
+    "use_cases": [
+      "Test planning",
+      "Coverage review",
+      "QA workflows",
+      "Test strategies"
+    ]
+  },
+  
+  "selection": {
+    "node_types": ["decision", "test", "coverage", "pattern"],
+    "statuses": ["active", "confirmed", "proposed"],
+    "tags": {
+      "include": ["testing", "test", "qa", "coverage", "unit-test", "integration-test", "e2e"],
+      "exclude": ["deprecated"]
+    },
+    "projects": ["*"],
+    "branches": ["*"]
+  },
+  
+  "presentation": {
+    "format": "list",
+    "group_by": "test_type",
+    "sort_by": "priority"
+  }
+}

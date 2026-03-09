@@ -1,0 +1,35 @@
+{
+  "lens_name": "performance-lens",
+  "metadata": {
+    "display_name": "Performance & Optimization",
+    "description": "Focus on performance decisions, optimizations, and benchmarks",
+    "version": "1.0.0",
+    "author": "system",
+    "icon": "⚡",
+    "color": "#FFD93D",
+    "created": "2026-02-15",
+    "use_cases": [
+      "Performance tuning",
+      "Optimization work",
+      "Benchmark analysis",
+      "Latency reduction"
+    ]
+  },
+  
+  "selection": {
+    "node_types": ["decision", "optimization", "benchmark", "issue"],
+    "statuses": ["active", "confirmed", "investigating"],
+    "tags": {
+      "include": ["performance", "optimization", "speed", "latency", "throughput", "benchmark", "slow"],
+      "exclude": ["resolved", "not-applicable"]
+    },
+    "projects": ["*"],
+    "branches": ["*"]
+  },
+  
+  "presentation": {
+    "format": "list",
+    "group_by": "impact",
+    "sort_by": "priority"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "lens_name": "security-lens",
+  "metadata": {
+    "display_name": "Security & Compliance",
+    "description": "Focus on security decisions, vulnerabilities, and compliance",
+    "version": "1.0.0",
+    "author": "system",
+    "icon": "🔒",
+    "color": "#F38181",
+    "created": "2026-02-15",
+    "use_cases": [
+      "Security audits",
+      "Compliance reviews",
+      "Vulnerability tracking",
+      "Auth/authorization work"
+    ]
+  },
+  
+  "selection": {
+    "node_types": ["decision", "issue", "vulnerability", "fix", "pattern"],
+    "statuses": ["active", "critical", "investigating", "confirmed"],
+    "tags": {
+      "include": ["security", "vulnerability", "auth", "encryption", "compliance", "gdpr", "hipaa", "audit"],
+      "exclude": ["resolved", "false-positive"]
+    },
+    "projects": ["*"],
+    "branches": ["*"]
+  },
+  
+  "presentation": {
+    "format": "grid",
+    "group_by": "severity",
+    "sort_by": "priority",
+    "show_metadata": true
+  }
+}
