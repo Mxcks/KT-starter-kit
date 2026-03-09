@@ -1,0 +1,9 @@
+# Placeholder - will be populated with core KT dependencies
+# For now, just the essentials for fractal documentation tools
+
+# Currently no external dependencies needed for basic tools
+# All tools use Python standard library only
+
+# Future dependencies (when core KT added):
+# pyyaml>=6.0
+# python-dateutil>=2.8.2

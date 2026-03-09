@@ -1,0 +1,36 @@
+{
+  "name": "kt-integration",
+  "version": "1.0.0",
+  "description": "Query Knowledge Tree index and ISS systems with intelligent context discovery",
+  "author": "Max Stern",
+  "created": "2026-03-09",
+  "triggers": [
+    "kt",
+    "knowledge tree",
+    "iss",
+    "tree summary",
+    "branch",
+    "catalog"
+  ],
+  "dependencies": [],
+  "paths": {
+    "kt_root": "C:/dev/KT",
+    "index_dir": "C:/dev/KT/index",
+    "iss_dir": "C:/dev/KT/index-scrolling-system",
+    "tools_dir": "tools",
+    "config_dir": "config"
+  },
+  "config_file": "config/settings.json",
+  "tools": [
+    "kt-index.py",
+    "iss-query.py",
+    "kt-smart.py",
+    "kt-config.py"
+  ],
+  "permissions": {
+    "read": true,
+    "write": false,
+    "exec": true,
+    "network": false
+  }
+}
